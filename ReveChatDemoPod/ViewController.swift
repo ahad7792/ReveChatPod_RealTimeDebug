@@ -22,6 +22,8 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     var visitor_accountID: String = ""
     var visitor_email: String = ""
     var visitor_mobile: String = ""
+    private var activeAccountID: String?
+    private let lastAccountIDKey = "ReveChatDemo_LastAccountID"
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,7 +33,8 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         //accountID_field.text = "1361965"
         //accountID_field.text = "7871954"
         //accountID_field.text = "2552651"
-        accountID_field.text = "1487773"
+        accountID_field.text = UserDefaults.standard.string(forKey: lastAccountIDKey) ?? "1487773"
+        activeAccountID = UserDefaults.standard.string(forKey: lastAccountIDKey)
         name_field.text = "ahad"
         email_field.text = "ahad@gmail.com"
         mobile_field.text = "123123123"
@@ -127,8 +130,17 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
             print("[ReveChatDemo] ERROR: ReveChatManager.shared() is nil")
             return
         }
+
+        let switchedAccount = activeAccountID != nil && activeAccountID != visitor_accountID
+        if switchedAccount {
+            print("[ReveChatDemo] Account changed from \(activeAccountID ?? "") to \(visitor_accountID). Clearing SDK session before switching.")
+            manager.clearSessionInternalAndSetAccountId(visitor_accountID)
+        }
+
         print("[ReveChatDemo] Calling setupAccount(with: \(visitor_accountID))")
         manager.setupAccount(with: visitor_accountID)
+        activeAccountID = visitor_accountID
+        UserDefaults.standard.set(visitor_accountID, forKey: lastAccountIDKey)
 
         if let nav = navVC {
             print("[ReveChatDemo] Calling initiateReveChat with navigationController")
@@ -149,6 +161,7 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
     // MARK: - Edit: allow editing visitor fields
 
     @IBAction func editBtn(_ sender: Any) {
+        accountID_field.isEnabled = true
         name_field.isEnabled = true
         email_field.isEnabled = true
         mobile_field.isEnabled = true
