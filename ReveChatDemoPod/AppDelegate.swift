@@ -12,8 +12,6 @@ import UserNotifications
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // ReveChatSDK: set account ID (replace with your account ID)
-        ReveChatManager.shared()?.setupAccount(with: "1487773")
 
         requestNotificationPermission(application)
 
