@@ -8,6 +8,7 @@
 import UIKit
 import UserNotifications
 import AVFoundation
+import ReveChatSDK
 
 class ViewController: UIViewController, UNUserNotificationCenterDelegate {
 

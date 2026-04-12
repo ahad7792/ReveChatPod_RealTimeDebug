@@ -8,6 +8,6 @@
 #ifndef ReveChatDemoPod_Bridging_Header_h
 #define ReveChatDemoPod_Bridging_Header_h
 
-#import "ReveChatSDK.h"
+//#import "ReveChatSDK.h"
 
 #endif /* ReveChatDemoPod_Bridging_Header_h */

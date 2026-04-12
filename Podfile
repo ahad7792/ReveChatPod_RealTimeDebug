@@ -6,8 +6,9 @@ target 'ReveChatDemoPod' do
   use_frameworks!
 
   # Pods for ReveChatDemoPod
-  pod 'SocketRocket'
-  pod 'AFNetworking'
-  pod 'GoogleWebRTC', '~> 1.1.29400'
+  # pod 'SocketRocket'
+  # pod 'AFNetworking'
+  # pod 'GoogleWebRTC'
+  pod 'ReveChatSDK'
 
 end
