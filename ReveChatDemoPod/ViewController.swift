@@ -215,8 +215,13 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
             DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
                 ReveChatManager.shared()?.initiateReveChat(with: self.visitor_name, visitorEmail: self.visitor_email, visitorMobile: self.visitor_mobile, onNavigationViewController: self.navigationController)
             }
-        } else if notificationIdentifier == "OutsideNotification" {
-            ReveChatManager.shared()?.initiateReveChat(with: visitor_name, visitorEmail: visitor_email, visitorMobile: visitor_mobile, onNavigationViewController: self.navigationController)
+        } else if notificationIdentifier == "OutsideNotification"
+            || notificationIdentifier.hasPrefix("ReveChatAgent_")
+            || notificationIdentifier.hasPrefix("ReveChatLanding_") {
+            let name = visitor_name.isEmpty ? (name_field.text ?? "") : visitor_name
+            let email = visitor_email.isEmpty ? (email_field.text ?? "") : visitor_email
+            let mobile = visitor_mobile.isEmpty ? (mobile_field.text ?? "") : visitor_mobile
+            ReveChatManager.shared()?.initiateReveChat(with: name, visitorEmail: email, visitorMobile: mobile, onNavigationViewController: self.navigationController)
         }
 
         completionHandler()

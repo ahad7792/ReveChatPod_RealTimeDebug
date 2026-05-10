@@ -38,7 +38,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterD
         let token = deviceToken.map { String(format: "%02.2hhx", $0) }.joined()
         print("APNs Device Token: \(token)")
         // ReveChatSDK: set APNs token for push if needed
-        // ReveChatManager.shared()?.apnsToken = token
+         ReveChatManager.shared()?.apnsToken = token
     }
 
     func application(_ application: UIApplication, didFailToRegisterForRemoteNotificationsWithError error: Error) {
