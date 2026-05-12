@@ -40,10 +40,10 @@
                                         <rect key="frame" x="16" y="257" width="325" height="45"/>
                                         <subviews>
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="DjT-v9-EtT">
-                                                <rect key="frame" x="30" y="6" width="90" height="33"/>
+                                                <rect key="frame" x="117.66666666666666" y="6" width="90" height="33"/>
                                                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="90" id="l0Y-kM-xOI"/>
+                                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="90" id="l0Y-kM-xOI"/>
                                                 </constraints>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <state key="normal" title="Button"/>
@@ -52,28 +52,12 @@
                                                     <action selector="editBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="352-E5-ZYp"/>
                                                 </connections>
                                             </button>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0nP-M1-pZL">
-                                                <rect key="frame" x="205" y="6" width="90" height="33"/>
-                                                <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="90" id="I2K-8K-8uS"/>
-                                                </constraints>
-                                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain" title="Confirm"/>
-                                                <connections>
-                                                    <action selector="confirmBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Nr6-uq-rAl"/>
-                                                </connections>
-                                            </button>
                                         </subviews>
                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                         <constraints>
-                                            <constraint firstAttribute="trailing" secondItem="0nP-M1-pZL" secondAttribute="trailing" constant="30" id="7iR-LH-xm0"/>
-                                            <constraint firstItem="0nP-M1-pZL" firstAttribute="top" secondItem="fV3-lt-c2Y" secondAttribute="top" constant="6" id="ISK-P5-65W"/>
-                                            <constraint firstAttribute="bottom" secondItem="0nP-M1-pZL" secondAttribute="bottom" constant="6" id="MTE-yB-4JF"/>
+                                            <constraint firstItem="DjT-v9-EtT" firstAttribute="centerX" secondItem="fV3-lt-c2Y" secondAttribute="centerX" id="MEW-Gb-ePd"/>
                                             <constraint firstItem="DjT-v9-EtT" firstAttribute="top" secondItem="fV3-lt-c2Y" secondAttribute="top" constant="6" id="Nr5-mt-pag"/>
                                             <constraint firstAttribute="bottom" secondItem="DjT-v9-EtT" secondAttribute="bottom" constant="6" id="fDc-Gq-ZsL"/>
-                                            <constraint firstItem="DjT-v9-EtT" firstAttribute="leading" secondItem="fV3-lt-c2Y" secondAttribute="leading" constant="30" id="uw7-0X-Asb"/>
                                             <constraint firstAttribute="height" constant="45" id="yZ4-hY-p8l"/>
                                         </constraints>
                                     </view>
@@ -152,7 +136,6 @@
                     </view>
                     <connections>
                         <action selector="ChatPressed:" destination="JPC-2n-obL" eventType="touchUpInside" id="action-chat"/>
-                        <action selector="confirmBtn:" destination="0nP-M1-pZL" eventType="touchUpInside" id="action-confirm"/>
                         <action selector="editBtn:" destination="DjT-v9-EtT" eventType="touchUpInside" id="action-edit"/>
                         <action selector="logoutBtn:" destination="Vhr-fE-ZpE" eventType="touchUpInside" id="action-logout"/>
                         <outlet property="accountID_field" destination="efl-NV-z6f" id="outlet-accountID"/>
@@ -163,7 +146,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-604" y="64"/>
+            <point key="canvasLocation" x="-944" y="-99"/>
         </scene>
     </scenes>
     <resources>

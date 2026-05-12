@@ -168,35 +168,6 @@ class ViewController: UIViewController, UNUserNotificationCenterDelegate {
         mobile_field.isEnabled = true
     }
 
-    // MARK: - Confirm: lock fields and connect ReveChatSDK websocket
-
-    @IBAction func confirmBtn(_ sender: Any) {
-        visitor_name = name_field.text ?? ""
-        visitor_accountID = accountID_field.text ?? ""
-        visitor_email = email_field.text ?? ""
-        visitor_mobile = mobile_field.text ?? ""
-
-        guard !visitor_name.isEmpty, !visitor_accountID.isEmpty, !visitor_email.isEmpty, !visitor_mobile.isEmpty else {
-            let alert = UIAlertController(title: "REVE Chat", message: "Please fill all the fields", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .default))
-            present(alert, animated: true)
-            return
-        }
-
-        let alert = UIAlertController(title: "REVE Chat", message: "Details confirmed. You are ready to chat", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "OK", style: .default))
-        present(alert, animated: true)
-
-        // ReveChatSDK: set account and connect websocket
-        ReveChatManager.shared()?.setupAccount(with: visitor_accountID)
-        ReveChatManager.shared()?.initiateReveChatCnnect(with: visitor_name, visitorEmail: visitor_email, visitorMobile: visitor_mobile, onNavigationViewController: self.navigationController)
-
-        name_field.isEnabled = false
-        email_field.isEnabled = false
-        mobile_field.isEnabled = false
-        accountID_field.isEnabled = false
-    }
-
     // MARK: - UNUserNotificationCenterDelegate (ReveChatSDK push)
 
     func userNotificationCenter(_ center: UNUserNotificationCenter,
