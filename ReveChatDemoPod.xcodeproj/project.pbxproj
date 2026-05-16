@@ -20,6 +20,7 @@
 		47C6243642764A50E754ABC8 /* Pods-ReveChatDemoPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReveChatDemoPod.release.xcconfig"; path = "Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod.release.xcconfig"; sourceTree = "<group>"; };
 		728B34C51CCE5FC866D7D07E /* Pods_ReveChatDemoPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReveChatDemoPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A6A61602AE7EBD15DCBA4D /* Pods-ReveChatDemoPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReveChatDemoPod.debug.xcconfig"; path = "Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod.debug.xcconfig"; sourceTree = "<group>"; };
+		DF6BF0582FB096B7008D306C /* ReveChatDemoPod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReveChatDemoPod.entitlements; sourceTree = "<group>"; };
 		DF9DB91E2F66A60800A8DB55 /* ReveChatDemoPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReveChatDemoPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DF9DB9462F66AD3D00A8DB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DF9DB9472F66AD3D00A8DB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -81,6 +82,7 @@
 		DF9DB94F2F66AD3D00A8DB55 /* ReveChatDemoPod */ = {
 			isa = PBXGroup;
 			children = (
+				DF6BF0582FB096B7008D306C /* ReveChatDemoPod.entitlements */,
 				DF9DB9462F66AD3D00A8DB55 /* AppDelegate.swift */,
 				DF9DB9472F66AD3D00A8DB55 /* Assets.xcassets */,
 				DF9DB9482F66AD3D00A8DB55 /* Info.plist */,
