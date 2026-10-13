@@ -176,14 +176,14 @@ code_sign_if_enabled() {
 }
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ReveChatSDK/ReveChatSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/WebRTC-lib/WebRTC.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_framework "${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework"
-  install_framework "${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/ReveChatSDK/ReveChatSDK.framework"
+  install_framework "${PODS_XCFRAMEWORKS_BUILD_DIR}/WebRTC-lib/WebRTC.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

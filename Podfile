@@ -7,9 +7,9 @@ target 'ReveChatDemoPod' do
 
   # Pods for ReveChatDemoPod
   # pod 'SocketRocket'
-  # pod 'AFNetworking'
-  # pod 'GoogleWebRTC'
-  pod 'ReveChatSDK'
+  # pod 'WebRTC-lib'
+  # pod 'ReveChatSDK', '3.0.2.10'
+  pod 'ReveChatSDK', :path => '/Users/reveios/Desktop/BitBucket/ReveChat_iOS_Sdk'
 
 end
 

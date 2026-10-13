@@ -7,6 +7,7 @@
 
 import UIKit
 import UserNotifications
+import ReveChatSDK
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate, UNUserNotificationCenterDelegate {

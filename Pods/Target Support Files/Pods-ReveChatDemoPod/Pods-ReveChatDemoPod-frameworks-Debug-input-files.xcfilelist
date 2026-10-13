@@ -1,4 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod-frameworks.sh
-${BUILT_PRODUCTS_DIR}/AFNetworking/AFNetworking.framework
-${PODS_ROOT}/GoogleWebRTC/Frameworks/frameworks/WebRTC.framework
 ${BUILT_PRODUCTS_DIR}/SocketRocket/SocketRocket.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/ReveChatSDK/ReveChatSDK.framework/ReveChatSDK
+${PODS_XCFRAMEWORKS_BUILD_DIR}/WebRTC-lib/WebRTC.framework/WebRTC

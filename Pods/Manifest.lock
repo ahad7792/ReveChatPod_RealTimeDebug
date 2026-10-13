@@ -1,38 +1,27 @@
 PODS:
-  - AFNetworking (4.0.1):
-    - AFNetworking/NSURLSession (= 4.0.1)
-    - AFNetworking/Reachability (= 4.0.1)
-    - AFNetworking/Security (= 4.0.1)
-    - AFNetworking/Serialization (= 4.0.1)
-    - AFNetworking/UIKit (= 4.0.1)
-  - AFNetworking/NSURLSession (4.0.1):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (4.0.1)
-  - AFNetworking/Security (4.0.1)
-  - AFNetworking/Serialization (4.0.1)
-  - AFNetworking/UIKit (4.0.1):
-    - AFNetworking/NSURLSession
-  - GoogleWebRTC (1.1.32000)
+  - ReveChatSDK (3.1.0):
+    - SocketRocket
+    - WebRTC-lib (~> 155.0)
   - SocketRocket (0.7.1)
+  - WebRTC-lib (155.0.0)
 
 DEPENDENCIES:
-  - AFNetworking
-  - GoogleWebRTC (~> 1.1.29400)
-  - SocketRocket
+  - ReveChatSDK (from `/Users/reveios/Desktop/BitBucket/ReveChat_iOS_Sdk`)
 
 SPEC REPOS:
   trunk:
-    - AFNetworking
-    - GoogleWebRTC
     - SocketRocket
+    - WebRTC-lib
+
+EXTERNAL SOURCES:
+  ReveChatSDK:
+    :path: "/Users/reveios/Desktop/BitBucket/ReveChat_iOS_Sdk"
 
 SPEC CHECKSUMS:
-  AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  GoogleWebRTC: 4d261187b30512efdb711d21fa961a6adf138717
+  ReveChatSDK: 992094e7bb56564ffa0e51970f48424a4b746e24
   SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
+  WebRTC-lib: de5ea4da1453a5681208fb273087eb6c937a3430
 
-PODFILE CHECKSUM: ec4b564979362ee210475f1ea3550798ae3dd050
+PODFILE CHECKSUM: a0974f9a9eb18456313c1bc91fc332b9059088ff
 
 COCOAPODS: 1.16.2

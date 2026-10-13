@@ -8,28 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		1B60E948C584939F1245EB2F /* Pods_ReveChatDemoPod.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 728B34C51CCE5FC866D7D07E /* Pods_ReveChatDemoPod.framework */; };
-		DF9DB9502F66AD3D00A8DB55 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB9462F66AD3D00A8DB55 /* AppDelegate.swift */; };
-		DF9DB9512F66AD3D00A8DB55 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB94D2F66AD3D00A8DB55 /* SceneDelegate.swift */; };
-		DF9DB9522F66AD3D00A8DB55 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF9DB94E2F66AD3D00A8DB55 /* ViewController.swift */; };
-		DF9DB9532F66AD3D00A8DB55 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF9DB9472F66AD3D00A8DB55 /* Assets.xcassets */; };
-		DF9DB9552F66AD3D00A8DB55 /* LaunchScreenParent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9DB94A2F66AD3D00A8DB55 /* LaunchScreenParent.storyboard */; };
-		DF9DB9562F66AD3D00A8DB55 /* MainParent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF9DB94C2F66AD3D00A8DB55 /* MainParent.storyboard */; };
+		DF8C0E5D30170B2D00FCCB1B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DF8C0E5230170B2D00FCCB1B /* Assets.xcassets */; };
+		DF8C0E5E30170B2D00FCCB1B /* LaunchScreenParent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8C0E5530170B2D00FCCB1B /* LaunchScreenParent.storyboard */; };
+		DF8C0E6030170B2D00FCCB1B /* MainParent.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DF8C0E5730170B2D00FCCB1B /* MainParent.storyboard */; };
+		DF8C0E6130170B2D00FCCB1B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C0E5B30170B2D00FCCB1B /* ViewController.swift */; };
+		DF8C0E6230170B2D00FCCB1B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C0E5130170B2D00FCCB1B /* AppDelegate.swift */; };
+		DF8C0E6330170B2D00FCCB1B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF8C0E5A30170B2D00FCCB1B /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		47C6243642764A50E754ABC8 /* Pods-ReveChatDemoPod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReveChatDemoPod.release.xcconfig"; path = "Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod.release.xcconfig"; sourceTree = "<group>"; };
 		728B34C51CCE5FC866D7D07E /* Pods_ReveChatDemoPod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ReveChatDemoPod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A5A6A61602AE7EBD15DCBA4D /* Pods-ReveChatDemoPod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReveChatDemoPod.debug.xcconfig"; path = "Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod.debug.xcconfig"; sourceTree = "<group>"; };
-		DF6BF0582FB096B7008D306C /* ReveChatDemoPod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReveChatDemoPod.entitlements; sourceTree = "<group>"; };
+		DF8C0E5130170B2D00FCCB1B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DF8C0E5230170B2D00FCCB1B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DF8C0E5330170B2D00FCCB1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DF8C0E5430170B2D00FCCB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreenParent.storyboard; sourceTree = "<group>"; };
+		DF8C0E5630170B2D00FCCB1B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainParent.storyboard; sourceTree = "<group>"; };
+		DF8C0E5830170B2D00FCCB1B /* ReveChatDemoPod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ReveChatDemoPod.entitlements; sourceTree = "<group>"; };
+		DF8C0E5930170B2D00FCCB1B /* ReveChatDemoPod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReveChatDemoPod-Bridging-Header.h"; sourceTree = "<group>"; };
+		DF8C0E5A30170B2D00FCCB1B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		DF8C0E5B30170B2D00FCCB1B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		DF9DB91E2F66A60800A8DB55 /* ReveChatDemoPod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReveChatDemoPod.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		DF9DB9462F66AD3D00A8DB55 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		DF9DB9472F66AD3D00A8DB55 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		DF9DB9482F66AD3D00A8DB55 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DF9DB9492F66AD3D00A8DB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreenParent.storyboard; sourceTree = "<group>"; };
-		DF9DB94B2F66AD3D00A8DB55 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainParent.storyboard; sourceTree = "<group>"; };
-		DF9DB94D2F66AD3D00A8DB55 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DF9DB94E2F66AD3D00A8DB55 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DF9DBCAD2F66B0A900A8DB55 /* ReveChatDemoPod-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ReveChatDemoPod-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,10 +61,26 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		DF8C0E5C30170B2D00FCCB1B /* ReveChatDemoPod */ = {
+			isa = PBXGroup;
+			children = (
+				DF8C0E5130170B2D00FCCB1B /* AppDelegate.swift */,
+				DF8C0E5230170B2D00FCCB1B /* Assets.xcassets */,
+				DF8C0E5330170B2D00FCCB1B /* Info.plist */,
+				DF8C0E5530170B2D00FCCB1B /* LaunchScreenParent.storyboard */,
+				DF8C0E5730170B2D00FCCB1B /* MainParent.storyboard */,
+				DF8C0E5830170B2D00FCCB1B /* ReveChatDemoPod.entitlements */,
+				DF8C0E5930170B2D00FCCB1B /* ReveChatDemoPod-Bridging-Header.h */,
+				DF8C0E5A30170B2D00FCCB1B /* SceneDelegate.swift */,
+				DF8C0E5B30170B2D00FCCB1B /* ViewController.swift */,
+			);
+			path = ReveChatDemoPod;
+			sourceTree = "<group>";
+		};
 		DF9DB9152F66A60800A8DB55 = {
 			isa = PBXGroup;
 			children = (
-				DF9DB94F2F66AD3D00A8DB55 /* ReveChatDemoPod */,
+				DF8C0E5C30170B2D00FCCB1B /* ReveChatDemoPod */,
 				DF9DB91F2F66A60800A8DB55 /* Products */,
 				9167D2FE39E3E0EA1D2BD97E /* Pods */,
 				7389EF4B8C76A7CFA55E0E6D /* Frameworks */,
@@ -77,22 +93,6 @@
 				DF9DB91E2F66A60800A8DB55 /* ReveChatDemoPod.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		DF9DB94F2F66AD3D00A8DB55 /* ReveChatDemoPod */ = {
-			isa = PBXGroup;
-			children = (
-				DF6BF0582FB096B7008D306C /* ReveChatDemoPod.entitlements */,
-				DF9DB9462F66AD3D00A8DB55 /* AppDelegate.swift */,
-				DF9DB9472F66AD3D00A8DB55 /* Assets.xcassets */,
-				DF9DB9482F66AD3D00A8DB55 /* Info.plist */,
-				DF9DB94A2F66AD3D00A8DB55 /* LaunchScreenParent.storyboard */,
-				DF9DB94C2F66AD3D00A8DB55 /* MainParent.storyboard */,
-				DF9DB94D2F66AD3D00A8DB55 /* SceneDelegate.swift */,
-				DF9DB94E2F66AD3D00A8DB55 /* ViewController.swift */,
-				DF9DBCAD2F66B0A900A8DB55 /* ReveChatDemoPod-Bridging-Header.h */,
-			);
-			path = ReveChatDemoPod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -157,9 +157,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9DB9532F66AD3D00A8DB55 /* Assets.xcassets in Resources */,
-				DF9DB9552F66AD3D00A8DB55 /* LaunchScreenParent.storyboard in Resources */,
-				DF9DB9562F66AD3D00A8DB55 /* MainParent.storyboard in Resources */,
+				DF8C0E5D30170B2D00FCCB1B /* Assets.xcassets in Resources */,
+				DF8C0E5E30170B2D00FCCB1B /* LaunchScreenParent.storyboard in Resources */,
+				DF8C0E6030170B2D00FCCB1B /* MainParent.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,13 +196,9 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
-			inputPaths = (
-			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-ReveChatDemoPod/Pods-ReveChatDemoPod-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -216,27 +212,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DF9DB9502F66AD3D00A8DB55 /* AppDelegate.swift in Sources */,
-				DF9DB9512F66AD3D00A8DB55 /* SceneDelegate.swift in Sources */,
-				DF9DB9522F66AD3D00A8DB55 /* ViewController.swift in Sources */,
+				DF8C0E6130170B2D00FCCB1B /* ViewController.swift in Sources */,
+				DF8C0E6230170B2D00FCCB1B /* AppDelegate.swift in Sources */,
+				DF8C0E6330170B2D00FCCB1B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DF9DB94A2F66AD3D00A8DB55 /* LaunchScreenParent.storyboard */ = {
+		DF8C0E5530170B2D00FCCB1B /* LaunchScreenParent.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF9DB9492F66AD3D00A8DB55 /* Base */,
+				DF8C0E5430170B2D00FCCB1B /* Base */,
 			);
 			name = LaunchScreenParent.storyboard;
 			sourceTree = "<group>";
 		};
-		DF9DB94C2F66AD3D00A8DB55 /* MainParent.storyboard */ = {
+		DF8C0E5730170B2D00FCCB1B /* MainParent.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				DF9DB94B2F66AD3D00A8DB55 /* Base */,
+				DF8C0E5630170B2D00FCCB1B /* Base */,
 			);
 			name = MainParent.storyboard;
 			sourceTree = "<group>";
@@ -252,7 +248,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ReveChatDemoPod/ReveChatDemoPod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = N66HCPTXFG;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -265,7 +261,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = MainParent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -292,7 +288,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = ReveChatDemoPod/ReveChatDemoPod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 9;
+				CURRENT_PROJECT_VERSION = 30;
 				DEVELOPMENT_TEAM = N66HCPTXFG;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -305,7 +301,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = MainParent;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
