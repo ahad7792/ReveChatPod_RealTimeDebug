@@ -1,27 +1,16 @@
 PODS:
-  - ReveChatSDK (3.1.0):
-    - SocketRocket
-    - WebRTC-lib (~> 155.0)
-  - SocketRocket (0.7.1)
   - WebRTC-lib (155.0.0)
 
 DEPENDENCIES:
-  - ReveChatSDK (from `/Users/reveios/Desktop/BitBucket/ReveChat_iOS_Sdk`)
+  - WebRTC-lib
 
 SPEC REPOS:
   trunk:
-    - SocketRocket
     - WebRTC-lib
 
-EXTERNAL SOURCES:
-  ReveChatSDK:
-    :path: "/Users/reveios/Desktop/BitBucket/ReveChat_iOS_Sdk"
-
 SPEC CHECKSUMS:
-  ReveChatSDK: 992094e7bb56564ffa0e51970f48424a4b746e24
-  SocketRocket: d4aabe649be1e368d1318fdf28a022d714d65748
   WebRTC-lib: de5ea4da1453a5681208fb273087eb6c937a3430
 
-PODFILE CHECKSUM: a0974f9a9eb18456313c1bc91fc332b9059088ff
+PODFILE CHECKSUM: df36b991880be293b06dbc5b5d5f130a1d5959d7
 
 COCOAPODS: 1.16.2
